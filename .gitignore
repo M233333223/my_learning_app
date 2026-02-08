@@ -43,3 +43,8 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Firebase 敏感配置（新增）
+google-services.json      # Android Firebase 配置文件
+GoogleService-Info.plist  # iOS Firebase 配置文件
+.firebase/                # Firebase CLI 缓存目录
